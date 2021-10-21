@@ -1,0 +1,28 @@
+{
+  "name": "aws-s3-buckets",
+  "version": "1.0.0",
+  "description": "buckets management with node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm run src/index.test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/04zAM/node-aws-s3.git"
+  },
+  "keywords": [
+    "aws",
+    "s3"
+  ],
+  "author": "zam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/04zAM/node-aws-s3/issues"
+  },
+  "homepage": "https://github.com/04zAM/node-aws-s3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1012.0",
+    "express": "^4.17.1"
+  }
+}
